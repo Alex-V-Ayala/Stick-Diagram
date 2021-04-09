@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stick Diagram</title>
+    <link rel="stylesheet" href="lib/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<div class="navbar fixed-top">
+<!-- TITLE -->
+    <section class="container header">
+        <h1 class="text-center">Stick Diagram (Classic Tuning)</h1>
+        <h2>Press spacebar for refresh</h2>
+
+<!-- KEYBOARD -->
+        <div class="container-fluid keyboard">
+
+            <div class="row flex-nowrap">
+        <!-- 1 Octave -->
+                <div class="col">
+                    <div class="row flex-nowrap">
+                        <div class="col-1 key"></div>
+                        <div class="col key black-key CSH1"></div>
+                        <div class="col key black-key DSH1"></div>
+                        <div class="col-1 key empty-key"></div>
+                        <div class="col key black-key FSH1"></div>
+                        <div class="col key black-key GSH1"></div>
+                        <div class="col key black-key ASH1"></div>
+                        <div class="col-1 key"></div>
+                    </div>
+                    <div class="row flex-nowrap">
+                        <div class="col key white-key C1"></div>
+                        <div class="col key white-key D1"></div>
+                        <div class="col key white-key E1"></div>
+                        <div class="col key white-key F1"></div>
+                        <div class="col key white-key G1"></div>
+                        <div class="col key white-key A1"></div>
+                        <div class="col key white-key B1"></div>
+                    </div>
+                </div>
+        <!-- 2 Octave -->
+                <div class="col">
+                    <div class="row flex-nowrap">
+                        <div class="col-1 key"></div>
+                        <div class="col key black-key CSH2"></div>
+                        <div class="col key black-key DSH2"></div>
+                        <div class="col-1 key"></div>
+                        <div class="col key black-key FSH2"></div>
+                        <div class="col key black-key GSH2"></div>
+                        <div class="col key black-key ASH2"></div>
+                        <div class="col-1 key"></div>
+                    </div>
+                    <div class="row flex-nowrap">
+                        <div class="col key white-key C2"></div>
+                        <div class="col key white-key D2"></div>
+                        <div class="col key white-key E2"></div>
+                        <div class="col key white-key F2"></div>
+                        <div class="col key white-key G2"></div>
+                        <div class="col key white-key A2"></div>
+                        <div class="col key white-key B2"></div>
+                    </div>
+                </div>
+        <!-- 3 Octave -->
+                <div class="col">
+                    <div class="row flex-nowrap">
+                        <div class="col-1 key"></div>
+                        <div class="col key black-key CSH3"></div>
+                        <div class="col key black-key DSH3"></div>
+                        <div class="col-1 key"></div>
+                        <div class="col key black-key FSH3"></div>
+                        <div class="col key black-key GSH3"></div>
+                        <div class="col key black-key ASH3"></div>
+                        <div class="col-1 key"></div>
+                    </div>
+                    <div class="row flex-nowrap">
+                        <div class="col key white-key C3"></div>
+                        <div class="col key white-key D3"></div>
+                        <div class="col key white-key E3"></div>
+                        <div class="col key white-key F3"></div>
+                        <div class="col key white-key G3"></div>
+                        <div class="col key white-key A3"></div>
+                        <div class="col key white-key B3"></div>
+                    </div>
+                </div>
+        <!-- 4 Octave -->
+                <div class="col">
+                    <div class="row flex-nowrap">
+                        <div class="col-1 key"></div>
+                        <div class="col key black-key CSH4"></div>
+                        <div class="col key black-key DSH4"></div>
+                        <div class="col-1 key"></div>
+                        <div class="col key black-key FSH4"></div>
+                        <div class="col key black-key GSH4"></div>
+                        <div class="col key black-key ASH4"></div>
+                        <div class="col-1 key"></div>
+                    </div>
+                    <div class="row flex-nowrap">
+                        <div class="col key white-key C4">C4</div>
+                        <div class="col key white-key D4"></div>
+                        <div class="col key white-key E4"></div>
+                        <div class="col key white-key F4"></div>
+                        <div class="col key white-key G4"></div>
+                        <div class="col key white-key A4"></div>
+                        <div class="col key white-key B4"></div>
+                    </div>
+                </div>
+        <!-- 5 Octave -->
+                <div class="col">
+                    <div class="row flex-nowrap">
+                        <div class="col-1 key"></div>
+                        <div class="col key black-key CSH5"></div>
+                        <div class="col key black-key DSH5"></div>
+                        <div class="col-1 key"></div>
+                        <div class="col key black-key FSH5"></div>
+                        <div class="col key black-key GSH5"></div>
+                        <div class="col key black-key ASH5"></div>
+                        <div class="col-1 key"></div>
+                    </div>
+                    <div class="row flex-nowrap">
+                        <div class="col key white-key C5"></div>
+                        <div class="col key white-key D5"></div>
+                        <div class="col key white-key E5"></div>
+                        <div class="col key white-key F5"></div>
+                        <div class="col key white-key G5"></div>
+                        <div class="col key white-key A5"></div>
+                        <div class="col key white-key B5"></div>
+                    </div>
+                </div>
+        <!-- 6 Octave -->
+                <div class="col">
+                    <div class="row flex-nowrap">
+                        <div class="col-1 key"></div>
+                        <div class="col key black-key CSH6"></div>
+                        <div class="col key non-key"></div>
+                        <div class="col-1 key"></div>
+                        <div class="col key non-key"></div>
+                        <div class="col key non-key"></div>
+                        <div class="col key non-key"></div>
+                        <div class="col-1 key"></div>
+                    </div>
+                    <div class="row flex-nowrap">
+                        <div class="col key white-key C6"></div>
+                        <div class="col key white-key D6"></div>
+                        <div class="col key non-key"></div>
+                        <div class="col key non-key"></div>
+                        <div class="col key non-key"></div>
+                        <div class="col key non-key"></div>
+                        <div class="col key non-key"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+</div>
+
+<!-- Stick -->
+    <div class="container-fluid stick">
+
+    <!-- X Fret -->
+        <div class="row flex-nonwrap x-fret">
+            <div class="col-4"></div>
+            <div class="col stick-note B3"></div>
+            <div class="col stick-note E3"></div>
+            <div class="col stick-note A2"></div>
+            <div class="col stick-note D2"></div>
+            <div class="col stick-note G1"></div>
+            <div class="col stick-note C1"></div>
+            <div class="col stick-note CSH2"></div>
+            <div class="col stick-note FSH2"></div>
+            <div class="col stick-note B2"></div>
+            <div class="col stick-note E3"></div>
+            <div class="col stick-note A3"></div>
+            <div class="col stick-note D4"></div>
+            <div class="col-4 justify">X</div>
+        </div>
+    <!-- Fret 1 -->
+        <div class="row flex-nonwrap fret-1">
+            <div class="col-4"></div>
+            <div class="col stick-note C4"></div>
+            <div class="col stick-note F3"></div>
+            <div class="col stick-note ASH2"></div>
+            <div class="col stick-note DSH2"></div>
+            <div class="col stick-note GSH1"></div>
+            <div class="col stick-note CSH1"></div>
+            <div class="col stick-note D2"></div>
+            <div class="col stick-note G2"></div>
+            <div class="col stick-note C3"></div>
+            <div class="col stick-note F3"></div>
+            <div class="col stick-note ASH3"></div>
+            <div class="col stick-note DSH4"></div>
+            <div class="col-4 justify">1</div>
+        </div>
+    <!-- Fret 2 -->
+        <div class="row flex-nonwrap fret-2">
+            <div class="col-4"></div>
+            <div class="col stick-note CSH4"></div>
+            <div class="col stick-note FSH3"></div>
+            <div class="col stick-note B2"></div>
+            <div class="col stick-note E2"></div>
+            <div class="col stick-note A1"></div>
+            <div class="col stick-note D1"></div>
+            <div class="col stick-note DSH2"></div>
+            <div class="col stick-note GSH2"></div>
+            <div class="col stick-note CSH3"></div>
+            <div class="col stick-note FSH3"></div>
+            <div class="col stick-note B3"></div>
+            <div class="col stick-note E4"></div>
+            <div class="col-4 justify">~~~~~~~2~~~~~~~</div>
+        </div>
+    <!-- Fret 3 -->
+        <div class="row flex-nonwrap fret-3">
+            <div class="col-4"></div>
+            <div class="col stick-note D4"></div>
+            <div class="col stick-note G3"></div>
+            <div class="col stick-note C3"></div>
+            <div class="col stick-note F2"></div>
+            <div class="col stick-note ASH1"></div>
+            <div class="col stick-note DSH1"></div>
+            <div class="col stick-note E2"></div>
+            <div class="col stick-note A2"></div>
+            <div class="col stick-note D3"></div>
+            <div class="col stick-note G3"></div>
+            <div class="col stick-note C4"></div>
+            <div class="col stick-note F4"></div>
+            <div class="col-4 justify">3</div>
+        </div>
+    <!-- Fret 4 -->
+        <div class="row flex-nonwrap fret-4">
+            <div class="col-4"></div>
+            <div class="col stick-note DSH4"></div>
+            <div class="col stick-note GSH3"></div>
+            <div class="col stick-note CSH3"></div>
+            <div class="col stick-note FSH2"></div>
+            <div class="col stick-note B1"></div>
+            <div class="col stick-note E1"></div>
+            <div class="col stick-note F2"></div>
+            <div class="col stick-note ASH2"></div>
+            <div class="col stick-note DSH3"></div>
+            <div class="col stick-note GSH3"></div>
+            <div class="col stick-note CSH4"></div>
+            <div class="col stick-note FSH4"></div>
+            <div class="col-4 justify">4</div>
+        </div>
+    <!-- Fret 5 -->
+        <div class="row flex-nonwrap fret-5">
+            <div class="col-4"></div>
+            <div class="col stick-note E4"></div>
+            <div class="col stick-note A3"></div>
+            <div class="col stick-note D3"></div>
+            <div class="col stick-note G2"></div>
+            <div class="col stick-note C2"></div>
+            <div class="col stick-note F1"></div>
+            <div class="col stick-note FSH2"></div>
+            <div class="col stick-note B2"></div>
+            <div class="col stick-note E3"></div>
+            <div class="col stick-note A3"></div>
+            <div class="col stick-note D4"></div>
+            <div class="col stick-note G4"></div>
+            <div class="col-4 justify">5</div>
+        </div>
+    <!-- Fret 6 -->
+        <div class="row flex-nonwrap fret-6">
+            <div class="col-4"></div>
+            <div class="col stick-note F4"></div>
+            <div class="col stick-note ASH3"></div>
+            <div class="col stick-note DSH3"></div>
+            <div class="col stick-note GSH2"></div>
+            <div class="col stick-note CSH2"></div>
+            <div class="col stick-note FSH1"></div>
+            <div class="col stick-note G2"></div>
+            <div class="col stick-note C3"></div>
+            <div class="col stick-note F3"></div>
+            <div class="col stick-note ASH3"></div>
+            <div class="col stick-note DSH4"></div>
+            <div class="col stick-note GSH4"></div>
+            <div class="col-4 justify">6</div>
+        </div>
+    <!-- Fret 7 -->
+        <div class="row flex-nonwrap fret-7">
+            <div class="col-4"></div>
+            <div class="col stick-note FSH4"></div>
+            <div class="col stick-note B3"></div>
+            <div class="col stick-note E3"></div>
+            <div class="col stick-note A2"></div>
+            <div class="col stick-note D2"></div>
+            <div class="col stick-note G1"></div>
+            <div class="col stick-note GSH2"></div>
+            <div class="col stick-note CSH3"></div>
+            <div class="col stick-note FSH3"></div>
+            <div class="col stick-note B3"></div>
+            <div class="col stick-note E4"></div>
+            <div class="col stick-note A4"></div>
+            <div class="col-4 justify">~~~~~~~7~~~~~~~</div>
+        </div>
+    <!-- Fret 8 -->
+        <div class="row flex-nonwrap fret-8">
+            <div class="col-4"></div>
+            <div class="col stick-note G4"></div>
+            <div class="col stick-note C4"></div>
+            <div class="col stick-note F3"></div>
+            <div class="col stick-note ASH2"></div>
+            <div class="col stick-note DSH2"></div>
+            <div class="col stick-note GSH1"></div>
+            <div class="col stick-note A2"></div>
+            <div class="col stick-note D3"></div>
+            <div class="col stick-note G3"></div>
+            <div class="col stick-note C4"></div>
+            <div class="col stick-note F4"></div>
+            <div class="col stick-note ASH4"></div>
+            <div class="col-4 justify">8</div>
+        </div>
+    <!-- Fret 9 -->
+        <div class="row flex-nonwrap fret-9">
+            <div class="col-4"></div>
+            <div class="col stick-note GSH4"></div>
+            <div class="col stick-note CSH4"></div>
+            <div class="col stick-note FSH3"></div>
+            <div class="col stick-note B2"></div>
+            <div class="col stick-note E2"></div>
+            <div class="col stick-note A1"></div>
+            <div class="col stick-note ASH2"></div>
+            <div class="col stick-note DSH3"></div>
+            <div class="col stick-note GSH4"></div>
+            <div class="col stick-note CSH4"></div>
+            <div class="col stick-note FSH4"></div>
+            <div class="col stick-note B4"></div>
+            <div class="col-4 justify">9</div>
+        </div>
+    <!-- Fret 10 -->
+        <div class="row flex-nonwrap fret-10">
+            <div class="col-4"></div>
+            <div class="col stick-note A4"></div>
+            <div class="col stick-note D4"></div>
+            <div class="col stick-note G3"></div>
+            <div class="col stick-note C3"></div>
+            <div class="col stick-note F2"></div>
+            <div class="col stick-note ASH1"></div>
+            <div class="col stick-note B2"></div>
+            <div class="col stick-note E3"></div>
+            <div class="col stick-note A3"></div>
+            <div class="col stick-note D4"></div>
+            <div class="col stick-note G4"></div>
+            <div class="col stick-note C5"></div>
+            <div class="col-4 justify">10</div>
+        </div>
+    <!-- Fret 11 -->
+        <div class="row flex-nonwrap fret-11">
+            <div class="col-4"></div>
+            <div class="col stick-note ASH4"></div>
+            <div class="col stick-note DSH4"></div>
+            <div class="col stick-note GSH3"></div>
+            <div class="col stick-note CSH3"></div>
+            <div class="col stick-note FSH2"></div>
+            <div class="col stick-note B1"></div>
+            <div class="col stick-note C3"></div>
+            <div class="col stick-note F3"></div>
+            <div class="col stick-note ASH3"></div>
+            <div class="col stick-note DSH4"></div>
+            <div class="col stick-note GSH4"></div>
+            <div class="col stick-note CSH5"></div>
+            <div class="col-4 justify">11</div>
+        </div>
+    <!-- Fret 12 -->
+        <div class="row flex-nonwrap fret-12">
+            <div class="col-4"></div>
+            <div class="col stick-note B4"></div>
+            <div class="col stick-note E4"></div>
+            <div class="col stick-note A3"></div>
+            <div class="col stick-note D3"></div>
+            <div class="col stick-note G2"></div>
+            <div class="col stick-note C2"></div>
+            <div class="col stick-note CSH3"></div>
+            <div class="col stick-note FSH3"></div>
+            <div class="col stick-note B3"></div>
+            <div class="col stick-note E4"></div>
+            <div class="col stick-note A4"></div>
+            <div class="col stick-note D5"></div>
+            <div class="col-4 justify">~~~~~~~12~~~~~~~</div>
+        </div>
+    <!-- Fret 13 -->
+        <div class="row flex-nonwrap fret-13">
+            <div class="col-4"></div>
+            <div class="col stick-note C5"></div>
+            <div class="col stick-note F4"></div>
+            <div class="col stick-note ASH3"></div>
+            <div class="col stick-note DSH3"></div>
+            <div class="col stick-note GSH2"></div>
+            <div class="col stick-note CSH2"></div>
+            <div class="col stick-note D3"></div>
+            <div class="col stick-note G3"></div>
+            <div class="col stick-note C4"></div>
+            <div class="col stick-note F4"></div>
+            <div class="col stick-note ASH4"></div>
+            <div class="col stick-note DSH5"></div>
+            <div class="col-4 justify">13</div>
+        </div>
+    <!-- Fret 14 -->
+        <div class="row flex-nonwrap fret-14">
+            <div class="col-4"></div>
+            <div class="col stick-note CSH5"></div>
+            <div class="col stick-note FSH4"></div>
+            <div class="col stick-note B3"></div>
+            <div class="col stick-note E3"></div>
+            <div class="col stick-note A2"></div>
+            <div class="col stick-note D2"></div>
+            <div class="col stick-note DSH3"></div>
+            <div class="col stick-note GSH3"></div>
+            <div class="col stick-note CSH4"></div>
+            <div class="col stick-note FSH4"></div>
+            <div class="col stick-note B4"></div>
+            <div class="col stick-note E5"></div>
+            <div class="col-4 justify">14</div>
+        </div>
+    <!-- Fret 15 -->
+        <div class="row flex-nonwrap fret-15">
+            <div class="col-4"></div>
+            <div class="col stick-note D5"></div>
+            <div class="col stick-note G4"></div>
+            <div class="col stick-note C4"></div>
+            <div class="col stick-note F3"></div>
+            <div class="col stick-note ASH2"></div>
+            <div class="col stick-note DSH2"></div>
+            <div class="col stick-note E3"></div>
+            <div class="col stick-note A3"></div>
+            <div class="col stick-note D4"></div>
+            <div class="col stick-note G4"></div>
+            <div class="col stick-note C5"></div>
+            <div class="col stick-note F5"></div>
+            <div class="col-4 justify">15</div>
+        </div>
+    <!-- Fret 16 -->
+        <div class="row flex-nonwrap fret-16">
+            <div class="col-4"></div>
+            <div class="col stick-note DSH5"></div>
+            <div class="col stick-note GSH4"></div>
+            <div class="col stick-note CSH4"></div>
+            <div class="col stick-note FSH3"></div>
+            <div class="col stick-note B2"></div>
+            <div class="col stick-note E2"></div>
+            <div class="col stick-note F3"></div>
+            <div class="col stick-note ASH3"></div>
+            <div class="col stick-note DSH4"></div>
+            <div class="col stick-note GSH4"></div>
+            <div class="col stick-note CSH5"></div>
+            <div class="col stick-note FSH5"></div>
+            <div class="col-4 justify">16</div>
+        </div>
+    <!-- Fret 17 -->
+        <div class="row flex-nonwrap fret-17">
+            <div class="col-4"></div>
+            <div class="col stick-note E5"></div>
+            <div class="col stick-note A4"></div>
+            <div class="col stick-note D4"></div>
+            <div class="col stick-note G3"></div>
+            <div class="col stick-note C3"></div>
+            <div class="col stick-note F2"></div>
+            <div class="col stick-note FSH3"></div>
+            <div class="col stick-note B3"></div>
+            <div class="col stick-note E4"></div>
+            <div class="col stick-note A4"></div>
+            <div class="col stick-note D5"></div>
+            <div class="col stick-note G5"></div>
+            <div class="col-4 justify">~~~~~~~17~~~~~~~</div>
+        </div>
+    <!-- Fret 18 -->
+        <div class="row flex-nonwrap fret-18">
+            <div class="col-4"></div>
+            <div class="col stick-note F5"></div>
+            <div class="col stick-note ASH4"></div>
+            <div class="col stick-note DSH4"></div>
+            <div class="col stick-note GSH3"></div>
+            <div class="col stick-note CSH3"></div>
+            <div class="col stick-note FSH2"></div>
+            <div class="col stick-note G3"></div>
+            <div class="col stick-note C4"></div>
+            <div class="col stick-note F4"></div>
+            <div class="col stick-note ASH4"></div>
+            <div class="col stick-note DSH5"></div>
+            <div class="col stick-note GSH5"></div>
+            <div class="col-4 justify">18</div>
+        </div>
+    <!-- Fret 19 -->
+        <div class="row flex-nonwrap fret-19">
+            <div class="col-4"></div>
+            <div class="col stick-note FSH5"></div>
+            <div class="col stick-note B4"></div>
+            <div class="col stick-note E4"></div>
+            <div class="col stick-note A3"></div>
+            <div class="col stick-note D3"></div>
+            <div class="col stick-note G2"></div>
+            <div class="col stick-note GSH3"></div>
+            <div class="col stick-note CSH4"></div>
+            <div class="col stick-note FSH4"></div>
+            <div class="col stick-note B4"></div>
+            <div class="col stick-note E5"></div>
+            <div class="col stick-note A5"></div>
+            <div class="col-4 justify">19</div>
+        </div>
+    <!-- Fret 20 -->
+        <div class="row flex-nonwrap fret-20">
+            <div class="col-4"></div>
+            <div class="col stick-note G5"></div>
+            <div class="col stick-note C5"></div>
+            <div class="col stick-note F4"></div>
+            <div class="col stick-note ASH3"></div>
+            <div class="col stick-note DSH3"></div>
+            <div class="col stick-note GSH2"></div>
+            <div class="col stick-note A3"></div>
+            <div class="col stick-note D4"></div>
+            <div class="col stick-note G4"></div>
+            <div class="col stick-note C5"></div>
+            <div class="col stick-note F5"></div>
+            <div class="col stick-note ASH5"></div>
+            <div class="col-4 justify">20</div>
+        </div>
+    <!-- Fret 21 -->
+        <div class="row flex-nonwrap fret-21">
+            <div class="col-4"></div>
+            <div class="col stick-note GSH5"></div>
+            <div class="col stick-note CSH5"></div>
+            <div class="col stick-note FSH4"></div>
+            <div class="col stick-note B3"></div>
+            <div class="col stick-note E3"></div>
+            <div class="col stick-note A2"></div>
+            <div class="col stick-note ASH3"></div>
+            <div class="col stick-note DSH4"></div>
+            <div class="col stick-note GSH4"></div>
+            <div class="col stick-note CSH5"></div>
+            <div class="col stick-note FSH5"></div>
+            <div class="col stick-note B5"></div>
+            <div class="col-4 justify">21</div>
+        </div>
+    <!-- Fret 22 -->
+        <div class="row flex-nonwrap fret-22">
+            <div class="col-4"></div>
+            <div class="col stick-note A5"></div>
+            <div class="col stick-note D5"></div>
+            <div class="col stick-note G4"></div>
+            <div class="col stick-note C4"></div>
+            <div class="col stick-note F3"></div>
+            <div class="col stick-note ASH2"></div>
+            <div class="col stick-note B3"></div>
+            <div class="col stick-note E4"></div>
+            <div class="col stick-note A4"></div>
+            <div class="col stick-note D5"></div>
+            <div class="col stick-note G5"></div>
+            <div class="col stick-note C6"></div>
+            <div class="col-4 justify">22</div>
+        </div>
+    <!-- Fret 23 -->
+        <div class="row flex-nonwrap fret-23">
+            <div class="col-4"></div>
+            <div class="col stick-note ASH5"></div>
+            <div class="col stick-note DSH5"></div>
+            <div class="col stick-note GSH4"></div>
+            <div class="col stick-note CSH4"></div>
+            <div class="col stick-note FSH3"></div>
+            <div class="col stick-note B2"></div>
+            <div class="col stick-note C4"></div>
+            <div class="col stick-note F4"></div>
+            <div class="col stick-note ASH4"></div>
+            <div class="col stick-note DSH5"></div>
+            <div class="col stick-note GSH5"></div>
+            <div class="col stick-note CSH6"></div>
+            <div class="col-4 justify">23</div>
+        </div>
+    <!-- Fret 24 -->
+        <div class="row flex-nonwrap fret-24">
+            <div class="col-4"></div>
+            <div class="col stick-note B5"></div>
+            <div class="col stick-note E5"></div>
+            <div class="col stick-note A4"></div>
+            <div class="col stick-note D4"></div>
+            <div class="col stick-note G3"></div>
+            <div class="col stick-note C3"></div>
+            <div class="col stick-note CSH4"></div>
+            <div class="col stick-note FSH4"></div>
+            <div class="col stick-note B4"></div>
+            <div class="col stick-note E5"></div>
+            <div class="col stick-note A5"></div>
+            <div class="col stick-note D6"></div>
+            <div class="col-4 justify">24</div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="lib/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/popper.js@1.15.0/dist/umd/popper.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
